@@ -1,68 +1,12 @@
-/* Do it in style */
-
-body {
-    font-family:                'Montserrat', sans-serif;
-}
-
-header {
-    max-width:                  500px;
-    margin:                     auto;
-}
-
-.logo {
-    display:                    block;
-    margin-left:                auto;
-    margin-right:               auto;
-    width:                      50%;
-    opacity:                    1;
-    transition:                 opacity .25s ease-in-out;
-}
-
-.logo:hover {
-    opacity:                    .5;
-}
-
- nav {
-    position:                   absolute;
-    width:                      100%;
-    left:                       0;
-}
-
-nav ul {
-    border:                     1px solid #ccc; /*Juostelės iš viršaus ir apačios*/
-    border-width:               1px 0; /*Juostelių iš šonų paslėpimas*/
-    list-style:                 none; /*Sąrašo simbolių paslėpimas (redundant)*/
-    margin:                     0; /*Tarpų tarp aplinkinių objektų panaikinimas*/
-    padding:                    0; /*Meniu objektų priekinio whitespace panaikinimas*/
-    text-align:                 center; /*Teksto <nav> konteineryje centravimas*/
-    background-color:           #ededed; /*Viso sąrašo fono spalva*/
-}
-
-nav ul li {
-    display:                    inline;
-}
-
-a {
-    display:                    inline-block;
-    padding:                    10px;
-    text-decoration:            none;
-    font-weight:                bold;
-    color:                      #ea6a11;
-    font-family:                "Verdana";
-    background-color:           #ededed;
-    box-shadow:                 0 0 0 -6px #ea6a11;
-    transition:                 background-color .25s ease-in-out, box-shadow .25s ease-in-out;
-    -webkit-transition:         background-color .25s ease-in-out, box-shadow .25s ease-in-out;
-    -moz-transition:            background-color .25s ease-in-out, box-shadow .25s ease-in-out;
-}
-
-a:hover {
-    background-color:           #f6f6f6;
-    box-shadow:                 0 10px 10px -6px #ea6a11;
-}
-
 main {
-    position: relative;
-    max-width:                  600px;
-    margin:                     auto;
+    margin-bottom:          100px;
+}
+.mazas {
+    display:                block;
+    transform-origin:       left;
+    transform:              scale(.5, .5);
+    -ms-transform:          scale(.5, .5);
+    -webkit-transform:      scale(.5, .5);
+    float:                  left;
+    position:               absolute;
 }
