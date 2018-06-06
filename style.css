@@ -1,0 +1,12 @@
+main {
+    margin-bottom:          100px;
+}
+.mazas {
+    display:                block;
+    transform-origin:       left;
+    transform:              scale(.5, .5);
+    -ms-transform:          scale(.5, .5);
+    -webkit-transform:      scale(.5, .5);
+    float:                  left;
+    position:               absolute;
+}
