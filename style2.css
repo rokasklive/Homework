@@ -1,0 +1,82 @@
+/* Logotipo centravimas */
+html
+{
+    height:                     100%;
+}
+
+body {
+    min-height:                 100%;
+}
+
+header {
+    width:                      100%;
+    margin:                     auto;
+    height:                     100px;
+    background-color:           #7f7f7f;
+    vertical-align:             middle;
+}
+
+ nav {
+    width:                      100%;
+}
+
+nav ul {
+    list-style:                 none;
+    margin:                     0;
+    padding:                    0;
+    text-align:                 center;
+}
+
+nav ul li {
+    display:                    inline;
+}
+
+.menu_item {
+    display:                    inline-block;
+    padding:                    5px;
+    text-decoration:            none;
+    color:                      #fff;
+    line-height:                100px;
+}
+main{
+    display:                    flex;
+}
+.left {
+    width:                      66%;
+    float:                      left;
+    margin-top:                 0;
+    background-color:           #5100ff;
+    min-height:                 100%;
+}
+.right {
+    width:                      34%;;
+    float:                      right;
+    margin-top:                 0;
+    background-color:           #008d0f;
+}
+.big_article {
+    padding:                    15px;
+}
+.lower {
+    padding:                    15px;
+}
+.upper {
+    padding:                    15px;
+}
+.copyrights{
+    vertical-align:             middle;
+    text-align:                 center;
+    line-height:                70px;
+    color:                      #fff;
+
+}
+footer {
+    background-color:           #000;
+    height:                     70px;
+    margin:                     0;
+    vertical-align:             middle;
+}
+p{
+    display:                    inline-block;
+    position:                   relative;
+}
