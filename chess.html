@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="lt">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Chessboard with css styling">
+        <meta name="author" content="Rokas Kučinskas">
+        <link rel="stylesheet" href="chess_styles.css">
+        <title>Chessboard</title>
+    </head>
+    <body>
+        <table>
+        <!-- Viršus -->
+        <tr>
+            <td class="indicators"></td>
+            <td class="indicators"><p class="chess_top">A</p></td>
+            <td class="indicators"><p class="chess_top">B</p></td>
+            <td class="indicators"><p class="chess_top">C</p></td>
+            <td class="indicators"><p class="chess_top">D</p></td>
+            <td class="indicators"><p class="chess_top">E</p></td>
+            <td class="indicators"><p class="chess_top">F</p></td>
+            <td class="indicators"><p class="chess_top">G</p></td>
+            <td class="indicators"><p class="chess_top">H</p></td>
+            <td class="indicators"></td>
+        </tr>
+        <!-- Eilutė Nr.1 -->
+        <tr>
+            <td class="indicators"><p class="chess_left">1</p></td>
+            <td class="square_light play"><p class="light_pieces">&#9814;</p></td>
+            <td class="square_dark play"><p class="light_pieces">&#9816;</p></td>
+            <td class="square_light play"><p class="light_pieces">&#9815;</p></td>
+            <td class="square_dark play"><p class="light_pieces">&#9812;</p></td>
+            <td class="square_light play"><p class="light_pieces">&#9813;</p></td>
+            <td class="square_dark play"><p class="light_pieces">&#9815;</p></td>
+            <td class="square_light play"><p class="light_pieces">&#9816;</p></td>
+            <td class="square_dark play"><p class="light_pieces">&#9814;</p></td>
+            <td class="indicators"><p class="chess_right">1</p></td>
+        </tr>
+        <!-- Eilutė Nr.2 -->
+        <tr>
+            <td class="indicators"><p class="chess_left">2</p></td>
+            <td class="square_dark play"><p class="light_pieces">&#9823;</p></td>
+            <td class="square_light play"><p class="light_pieces">&#9823;</p></td>
+            <td class="square_dark play"><p class="light_pieces">&#9823;</p></td>
+            <td class="square_light play"><p class="light_pieces">&#9823;</p></td>
+            <td class="square_dark play"><p class="light_pieces">&#9823;</p></td>
+            <td class="square_light play"><p class="light_pieces">&#9823;</p></td>
+            <td class="square_dark play"><p class="light_pieces">&#9823;</p></td>
+            <td class="square_light play"><p class="light_pieces">&#9823;</p></td>
+            <td class="indicators"><p class="chess_right">2</p></td>
+        </tr>
+        <!-- Eilutė Nr.3 -->
+        <tr>
+            <td class="indicators"><p class="chess_left">3</p></td>
+            <td class="square_light play"></td>
+            <td class="square_dark play"></td>
+            <td class="square_light play"></td>
+            <td class="square_dark play"></td>
+            <td class="square_light play"></td>
+            <td class="square_dark play"></td>
+            <td class="square_light play"></td>
+            <td class="square_dark play"></td>
+            <td class="indicators"><p class="chess_right">3</p></td>
+        </tr>
+        <!-- Eilutė Nr.4 -->
+        <tr>
+            <td class="indicators"><p class="chess_left">4</p></td>
+            <td class="square_dark play"></td>
+            <td class="square_light play"></td>
+            <td class="square_dark play"></td>
+            <td class="square_light play"></td>
+            <td class="square_dark play"></td>
+            <td class="square_light play"></td>
+            <td class="square_dark play"></td>
+            <td class="square_light play"></td>
+            <td class="indicators"><p class="chess_right">4</p></td>
+        </tr>
+        <!-- Eilutė Nr.5 -->
+        <tr>
+            <td class="indicators"><p class="chess_left">5</p></td>
+            <td class="square_light play"></td>
+            <td class="square_dark play"></td>
+            <td class="square_light play"></td>
+            <td class="square_dark play"></td>
+            <td class="square_light play"></td>
+            <td class="square_dark play"></td>
+            <td class="square_light play"></td>
+            <td class="square_dark play"></td>
+            <td class="indicators"><p class="chess_right">5</p></td>
+        </tr>
+        <!-- Eilutė Nr.6 -->
+        <tr>
+            <td class="indicators"><p class="chess_left">6</p></td>
+            <td class="square_dark play"></td>
+            <td class="square_light play"></td>
+            <td class="square_dark play"></td>
+            <td class="square_light play"></td>
+            <td class="square_dark play"></td>
+            <td class="square_light play"></td>
+            <td class="square_dark play"></td>
+            <td class="square_light play"></td>
+            <td class="indicators"><p class="chess_right">6</p></td>
+        </tr>
+        <!-- Eilutė Nr.7 -->
+        <tr>
+            <td class="indicators"><p class="chess_left">7</p></td>
+            <td class="square_light play"><p class="dark_piece">&#9823;</p></td>
+            <td class="square_dark play"><p class="dark_piece">&#9823;</p></td>
+            <td class="square_light play"><p class="dark_piece">&#9823;</p></td>
+            <td class="square_dark play"><p class="dark_piece">&#9823;</p></td>
+            <td class="square_light play"><p class="dark_piece">&#9823;</p></td>
+            <td class="square_dark play"><p class="dark_piece">&#9823;</p></td>
+            <td class="square_light play"><p class="dark_piece">&#9823;</p></td>
+            <td class="square_dark play"><p class="dark_piece">&#9823;</p></td>
+            <td class="indicators"><p class="chess_right">7</p></td>
+        </tr>
+        <!-- Eilutė Nr.8 -->
+        <tr>
+            <td class="indicators"><p class="chess_left">8</p></td>
+            <td class="square_dark play"><p class="dark_piece">&#9820;</p></td>
+            <td class="square_light play"><p class="dark_piece">&#9822;</p></td>
+            <td class="square_dark play"><p class="dark_piece">&#9821;</p></td>
+            <td class="square_light play"><p class="dark_piece">&#9818;</p></td>
+            <td class="square_dark play"><p class="dark_piece">&#9819;</p></td>
+            <td class="square_light play"><p class="dark_piece">&#9821;</p></td>
+            <td class="square_dark play"><p class="dark_piece">&#9822;</p></td>
+            <td class="square_light play"><p class="dark_piece">&#9820;</p></td>
+            <td class="indicators"><p class="chess_right">8</p></td>
+        </tr>
+        <!-- Apatinė eilutė -->
+        <tr>
+            <td class="indicators"></td>
+            <td class="indicators"><p class="chess_bottom">A</p></td>
+            <td class="indicators"><p class="chess_bottom">B</p></td>
+            <td class="indicators"><p class="chess_bottom">C</p></td>
+            <td class="indicators"><p class="chess_bottom">D</p></td>
+            <td class="indicators"><p class="chess_bottom">E</p></td>
+            <td class="indicators"><p class="chess_bottom">F</p></td>
+            <td class="indicators"><p class="chess_bottom">G</p></td>
+            <td class="indicators"><p class="chess_bottom">H</p></td>
+            <td class="indicators"></td>
+        </tr>
+    </table>
+
+    </body>
+</html>
