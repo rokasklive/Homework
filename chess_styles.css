@@ -6,7 +6,8 @@ table {
 table tr td {
     border: 1px solid black;
 }
-.play {
+
+.play{
     height: 50px;
     width:  50px;
 }
@@ -44,15 +45,11 @@ p {
     font-size: 40px;
     text-align: center;
     vertical-align: middle;
-    margin:0;
-    padding:0;
     color: #f5f5f0;
 }
 .dark_piece{
     font-size: 40px;
     text-align: center;
     vertical-align: middle;
-    margin: 0;
-    padding: 0;
     color: #000;
 }
