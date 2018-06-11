@@ -5,6 +5,7 @@ html
 
 body {
     min-height:                 100%;
+    margin: 0;
 }
 
 header {
@@ -44,14 +45,14 @@ main{
     width:                      66%;
     float:                      left;
     margin-top:                 0;
-    background-color:           #5100ff;
+    background-color:           #9586b5;
     min-height:                 100%;
 }
 .right {
     width:                      34%;;
     float:                      right;
     margin-top:                 0;
-    background-color:           #008d0f;
+    background-color:           #8ee797;
 }
 .big_article {
     padding:                    15px;
