@@ -12,13 +12,13 @@ p {
 
 /* Visi anchorai po paragrafomis gauna border ir padding */
 p + a {
-    border:                 1px solid #bababa;
+    border:                 1px solid lightgrey;
     padding:                5px;
 }
 
  /* Nustatomas paragrafo fonas - pilkas ir atitraukimai nuo border */
  h4 + p {
-    background-color:       rgb(186, 186, 186);
+    background-color:       lightgrey;
     padding:                20px;
 }
 
@@ -64,6 +64,7 @@ a:active {
 
 /* Pakeičiamas paveiksliuko plotis, numatoma, kad bus laikomasi kairės pusės ir suteikiamas atitraukimas iš dešinės */
 img {
+    margin-bottom:          3px;
     min-height:             133px;
     width:                  200px;
     float:                  left;
