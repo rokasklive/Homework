@@ -1,0 +1,66 @@
+/* Nustatau puslapio plotį, išcentruoju ir suteikiu visam turiniui šriftą */
+body {
+    margin:                 0 auto;
+    font-family:            Merriweather;
+    width:                  70%;
+}
+
+/* Tarpai tarp eilučių visose paragrafose */
+p {
+    line-height:            1.5;
+}
+
+/* Visi anchorai po paragrafomis gauna border ir padding */
+p + a {
+    border:                 1px solid #bababa;
+    padding:                5px;
+}
+
+
+ /* Nustatomas paragrafo fonas - pilkas ir atitraukimai nuo border */
+ h4 + p {
+    background-color:       rgb(186, 186, 186);
+    padding:                20px;
+}
+
+/* Kas antras article turi juodą foną, atitraukimus, baltą tekstą ir atitraukimą iš viršaus */
+article:nth-child(even) {
+    background-color:       black;
+    color:                  white;
+    padding:                20px;
+    margin-top:             25px;
+}
+
+/* Article antraštės šiek tiek padidinamos */
+h2 {
+    font-size:              32px;
+}
+
+/* Visi h3 po h2 įgauna naują šriftą ir spalvą */
+h2 + h3 {
+    font-family:            'Open Sans', sans-serif;
+    color:                  lightgrey;
+}
+
+/* Visi anchor elementai praranda pabraukimą ir įgauna kitą spalvą */
+a {
+    text-decoration:        none;
+    color:                  #df82ff;
+}
+
+/* Užėjus ant anchor elemento, pakeičiama spalva */
+a:hover {
+    color:                  red;
+}
+
+/* Paspaudus ant anchor elemento, pakeičiamas šrifto storis */
+a:active {
+    font-weight:            bold;
+}
+
+/* Pakeičiamas paveiksliuko plotis, numatoma, kad bus laikomasi kairės pusės ir suteikiamas atitraukimas iš dešinės */
+img {
+    width:                  200px;
+    float:                  left;
+    margin-right:           15px;
+}
