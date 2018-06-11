@@ -16,7 +16,6 @@ p + a {
     padding:                5px;
 }
 
-
  /* Nustatomas paragrafo fonas - pilkas ir atitraukimai nuo border */
  h4 + p {
     background-color:       rgb(186, 186, 186);
@@ -29,6 +28,11 @@ article:nth-child(even) {
     color:                  white;
     padding:                20px;
     margin-top:             25px;
+}
+
+/* Panaikinu viršutinį h2 margin straipsniuose su juodu fonu  */
+article:nth-child(even) h2 {
+    margin-top:             0;
 }
 
 /* Article antraštės šiek tiek padidinamos */
@@ -60,6 +64,7 @@ a:active {
 
 /* Pakeičiamas paveiksliuko plotis, numatoma, kad bus laikomasi kairės pusės ir suteikiamas atitraukimas iš dešinės */
 img {
+    min-height:             133px;
     width:                  200px;
     float:                  left;
     margin-right:           15px;
