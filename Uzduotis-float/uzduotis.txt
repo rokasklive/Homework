@@ -1,0 +1,20 @@
+1. Apsirašyti privalomą "meta" informaciją (responsive, description, title)
+
+2. Prisidėti "Open Sans" šriftus
+
+3. Prisidėti CSS su <link>
+
+4. Žiūrėti nuotrauką homework.png
+
+    4.1 Naudoti semantiškus tagus
+    4.2 Dizaino (layout'o) išdėstymui šįkart naudoti floatus, o ne flexą (float:left ir float:right)
+    4.3 Nepamiršti panaudoti clearfix'ą, jei elemento aukštis pranyksta arba jei tiesiog dizainas išsidarko
+    4.4 Nedėkite "padding" ant stulpelių
+    4.5 Nepamirškite naudoti klases
+    4.6 Naudokite procentus sekcijų pločiui apsirašyti
+    4.7 Užsidėkite :hover ir :active pseudo-klases ant visų linkų (anchors)
+    4.8 Ant :hover turi spalva pasikeisti į raudoną
+    4.9 Ant :active turi tekstas pastorėti, naudokit font-weight: bold
+    4.* Trečio stulpelio tekstą iš paslaugų sekcijos nudažykite baltai. Naudoti nth-child selektorių.
+
+5. Pasitikrinti kodą su w3c validatoriumi
