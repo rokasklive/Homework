@@ -4,7 +4,7 @@
   box-sizing:                   border-box;
 }
 
-body{
+body {
     margin:                     0 auto;
     width:                      1000px;
     font-family:                'Open Sans', sans-serif;
@@ -18,17 +18,17 @@ footer {
     height:                     70px;
 }
 
-img{
+img {
     padding:                    10px;
     float:                      left;
 }
 
-nav{
+nav {
     float:                      right;
     margin-right:               15px;
 }
 
-ul{
+ul {
     margin:                     0;
 }
 
@@ -42,34 +42,34 @@ h2 {
     margin-top:                 0;
 }
 
-section{
+section {
     float:                      left;
     width:                      25%;
 }
 
-section:nth-child(3){
+section:nth-child(3) {
     color:                      white;
 }
 
-article{
+article {
     float:                      left;
     width:                      50%;
 }
 
-a{
+a {
     color:                      #888888;
     text-decoration:            none;
 }
 
-p+a{
+p+a {
     color:                      #a531f6;
 }
 
-a:hover{
+a:hover {
     color:                      red;
 }
 
-a:active{
+a:active {
     font-weight:                bold;
 }
 /* END GLOBAL STYLES */
@@ -80,17 +80,17 @@ a:active{
     display:                    table;
 }
 
-.main-upper{
+.main-upper {
     background-color:           #3638ff;
     padding:                    25px;
 }
 
-.main-lower{
+.main-lower {
     background-color:           #3eff63;
     padding:                    25px;
 }
 
-.copyrights{
+.copyrights {
     text-align:                 center;
     line-height:                70px;
     color:                      #fff;
