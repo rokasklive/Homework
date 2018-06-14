@@ -1,0 +1,66 @@
+/* GLOBAL STYLES */
+* {
+  box-sizing:                   border-box;
+}
+
+body {
+    font-family: 'Merriweather', serif;
+    margin: 0 auto;
+    max-width: 1920px;
+}
+
+h1, h2, h3, h4, h5, h6, a {
+    font-family: 'Raleway', sans-serif;
+}
+header {
+    text-align: center;
+    background-color: lightgrey;
+}
+nav {
+    display: inline-block;
+    padding: 15px 15px;
+}
+nav > a {
+    padding: 10px 10px;
+    text-decoration: none;
+    color: black;
+}
+main {
+    padding: 20px;
+}
+
+ul{
+    padding-left: 0;
+    list-style: none;
+}
+iframe{
+    width: 90%;
+}
+section{
+    padding: 10px;
+}
+video{
+    width: 90%;
+}
+main{
+    display: flex;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+
+}
+span{
+    color: white;
+    margin: 0 auto;
+}
+/* END OF GLOBAL STYLES */
+
+.section-left {
+    width: 60%;
+    text-align: justify;
+}
+.section-right{
+    width: 40%;
+}
