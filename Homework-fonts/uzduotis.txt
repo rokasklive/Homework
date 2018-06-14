@@ -1,0 +1,27 @@
+1. Apsirašyti privalomą "meta" informaciją (responsive, description, title)
+
+2. Prisidėti tinklalapio įkonėlę (favicon)
+
+2. Prisidėti "Raleway" ir "Merriweather" šriftus iš google fonts su <link>
+
+3. Prisidėti CSS su <link>
+
+4. Žiūrėti nuotrauką homework.png
+
+    4.1 Naudoti semantiškus tagus
+    4.2 Priskirti "Merriweather" šriftą visam body elementui , pvz. body { font-family: "Merriweather"; }
+    4.3 Priskirti "Raleway" šriftą tik antraštėms ir linkams, pvz. h1, h2, h3, a
+    4.4 Prisidėti logotipą su <img> tagu
+    4.5 Meniu spalva "lightgray"
+    4.6 Uždėti "display: flex" ant <main> elemento (čia tam, jog suformuoti 2 stulpelius)
+    4.6 Įdėti video, dviem formatais, vienas jau yra jum pateiktas, turėsite .mp4 konvertuoti į .webm,
+    galite tai padaryti šioje svetainėje https://video.online-convert.com/convert-to-webm
+    4.7 Uždėti "autoplay" ir "loop" atributus ant <video> tago, nuimti "controls", pastudijuoti kas keičiasi
+    4.8 Apsirašyti formą dešinėje, priskirti formai metodą "POST"
+    4.9 Prisidėti "google maps", adresas "Vilnius, Baltic Talents"
+
+5. Pasitikrinti kodą su w3c validatoriumi
+
+    5.1 Tikriausiai gausite tokią klaidą
+        "Bad value https://fonts.googleapis.com/css?family=Merriweather|Raleway for attribute href on element link: Illegal character in query: | is not allowed."
+        Apie ją pakalbėsime pirmadienį :), sutvarkyt šią klaida galima | pakeitus į %7C

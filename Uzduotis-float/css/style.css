@@ -42,14 +42,6 @@ h2 {
     margin-top:                 0;
 }
 
-section {
-    float:                      left;
-    width:                      25%;
-}
-
-section:nth-child(3) {
-    color:                      white;
-}
 
 article {
     float:                      left;
@@ -94,4 +86,13 @@ a:active {
     text-align:                 center;
     line-height:                70px;
     color:                      #fff;
+}
+
+.column {
+    float:                      left;
+    width:                      25%;
+}
+
+.column:nth-child(3) {
+    color:                      white;
 }
