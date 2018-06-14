@@ -3,20 +3,20 @@
 }
 span{
     float: right;
-    padding: 3vw;
-    font-size: 3vw;
-    font-weight: bold;
+    padding:                    3vw;
+    font-size:                  3vw;
+    font-weight:                bold;
 }
 
 .container span:nth-child(3){
-    position: absolute;
-    align-self: flex-end;
+    position:                   absolute;
+    align-self:                 flex-end;
 
 }
 
 div{
     margin-bottom:              1vw;
-    text-align: right;
+    text-align:                 right;
 }
 .container {
     display:                    flex;
