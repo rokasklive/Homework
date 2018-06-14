@@ -16,6 +16,7 @@ div {
     height:                     15vw;
     text-align:                 center;
 }
+
 header, main, section, footer {
     margin:                     0;
 }
@@ -24,6 +25,7 @@ header {
     display:                    flex;
     flex-direction:             row;
 }
+
 main {
     display:                    flex;
     flex-direction:             row;
@@ -42,12 +44,15 @@ main {
     overflow:                   hidden;
     padding:                    1vw;
 }
-.content::-webkit-scrollbar{
+
+.content::-webkit-scrollbar {
     display:none;
 }
+
 .box-g .content {
     overflow:                   scroll;
 }
+
 .main-left {
     width:                      15vw;
 }
@@ -59,6 +64,7 @@ main {
 .main-right {
     width:                      25vw;
 }
+
 .box-a {
     width:                      75vw;
     height:                     15vw;
@@ -68,18 +74,23 @@ main {
     width:                      25vw;
     height:                     15vw;
 }
+
 .box-c {
     height:                     100%;
 }
+
 .box-g {
     height:                     50vw;
 }
+
 .box-f {
     height:                     30vw;
 }
+
 .box-h {
     height:                     50vw;
 }
+
 header .content {
     background-color:           #eaff82;
 }
@@ -95,6 +106,7 @@ header .content {
 .main-right .content {
     background-color:           #f1ffaf;
 }
+
 footer .content {
     background-color:           #ffa1a1;
 }
