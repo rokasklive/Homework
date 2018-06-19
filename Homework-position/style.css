@@ -1,33 +1,45 @@
+/* VAR */
+
+html {
+    --color1: cyan;
+    --color2: magenta;
+    --color3: yellow;
+}
+
+/* END OF VAR */
+/* GLOBAL */
+
 * {
     box-sizing: border-box;
     margin: 0;
 }
+
 body {
     display: flex;
     flex-direction: column;
     width: 100vw;
 }
+
 h1 {
     font-family: 'Encode Sans Condensed', sans-serif;
-font-weight: normal;
-letter-spacing: 5vw;
-display: inline-block;
-text-align: center;
-align-self: center;
-font-size: 10vw;
-animation: glitch 3s steps(100) infinite;
+    font-weight: normal;
+    letter-spacing: 5vw;
+    align-self: center;
+    font-size: 10vw;
+    animation: glitch 3s steps(100) infinite;
 }
-
 
 p {
     align-self: center;
     text-align: left;
-    width: 50vw;
+    width: 80vw;
     font-size: 2vw;
-    max-height: 10vw;
-    overflow-y: scroll;
+    overflow-y: hidden;
     margin: 1vw;
 }
+
+/* END OF GLOBAL */
+
 .box-relative {
     position: relative;
     align-self: center;
@@ -36,6 +48,7 @@ p {
     height: 50vw;
     border: 1px solid black;
 }
+
 .circle {
     position: absolute;
     width: 60%;
@@ -43,7 +56,8 @@ p {
     border-radius: 50%;
     transform-origin: center center;
 }
-.red{
+
+.red {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
@@ -52,8 +66,7 @@ p {
     animation: red-circle 1s cubic-bezier(.77,.23,.21,1.29) 3s 1 normal forwards;
 }
 
-
-.green{
+.green {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
@@ -63,16 +76,15 @@ p {
 
 }
 
-.blue{
+.blue {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
     background-color: rgba(0, 0, 255, 0.5);
     border: 1vw solid blue;
     animation: blue-circle 1s cubic-bezier(.77,.23,.21,1.29) 3s 1 normal forwards;
-
 }
-/* rgba(0, 0, 255, 0.5); */
+
 .text {
     position: relative;
     text-align: center;
@@ -82,13 +94,10 @@ p {
     font-size: 10vw;
     color: white;
 }
-:root{
-    --color1: cyan;
-    --color2: lime;
-    --color3: magenta;
-}
 
-@keyframes red-circle{
+/* ANIMATIONS */
+
+@keyframes red-circle {
     from {
         left: 50%;
         top: 50%;
@@ -102,7 +111,7 @@ p {
     }
 }
 
-@keyframes green-circle{
+@keyframes green-circle {
     from {
         left: 50%;
         top: 50%;
@@ -115,7 +124,7 @@ p {
     }
 }
 
-@keyframes blue-circle{
+@keyframes blue-circle {
     from {
         left: 50%;
         top: 50%;
