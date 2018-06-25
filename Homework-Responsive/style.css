@@ -1,0 +1,154 @@
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  margin: 0;
+  background: #f2f5ba;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  width: 100%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 5rem;
+  background-color: lightblue;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.main_text {
+  width: 100%;
+  background-color: green;
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+.main_text p {
+    margin: 0;
+    padding: 1rem;
+}
+
+.main_ads {
+  margin: 0rem 0.5rem 1rem 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.ad {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45%;
+  height: 10rem;
+  background-color: grey;
+  margin-top: 1rem;
+  font-size: 2rem;
+  color: white;
+}
+
+.menu_button,
+a {
+  display: inline-block;
+  background-color: lightblue;
+  width: 30vw;
+  height: 5rem;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-size: 2rem;
+  line-height: 5rem;
+}
+
+.dropdown_menu {
+  display: inline-block;
+  position: relative;
+}
+
+.dropdown_menu_content {
+  position: absolute;
+  display: none;
+}
+
+.dropdown_menu:hover .dropdown_menu_content {
+  display: flex;
+}
+.menu_button:hover,
+a:hover {
+  background: linear-gradient(to right, lightblue, royalblue);
+}
+
+.contacts_button {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  main {
+    flex-direction: row;
+    margin: 0rem 1rem 1rem 1rem;
+    justify-content: space-between;
+  }
+
+  .main_ads {
+    margin: 0;
+    width: 25%;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .main_text {
+    width: 73%;
+    font-size: 1.6rem;
+  }
+
+  .main_text p {
+    padding: 1rem;
+    margin: 0;
+  }
+
+  .ad {
+    width: 100%;
+    margin-top: 1rem;
+    height: 7rem;
+  }
+
+  footer {
+    display: flex;
+    margin: 0rem 1rem 1rem 1rem;
+  }
+  .dropdown_menu {
+    width: 100%;
+  }
+  .menu_button {
+    display: none;
+  }
+
+  .dropdown_menu_content {
+    display: flex;
+    width: 100%;
+  }
+
+  a {
+    width: 20%;
+  }
+
+  .menu_right {
+    width: 25%;
+  }
+  .menu_right a {
+    width: 100%;
+  }
+}
