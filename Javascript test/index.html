@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="lt" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Galada%7CSource+Sans+Pro" rel="stylesheet">
+
+</head>
+<body>
+    <h1>JavaScript</h1>
+    <h2>Matieka</h2>
+    <div class="container">
+        <div class="IO">
+            <div class="ioSection">
+                <label for="input1">Pirmas skaitmuo: </label>
+                <input id="input1" type="number" name="input1" value="" placeholder="Įvesti">
+            </div>
+            <div class="ioSection">
+                <label for="input2">Antras skaitmuo: </label>
+                <input id="input2" type="number" name="input2" value="" placeholder="Įvesti">
+            </div>
+            <div class="ioSection">
+                <label for="output">Atsakymas: </label>
+                <input id="output" type="number" name="output" value="" placeholder="Soon..." disabled>
+            </div>
+        </div>
+        <div class="modifiers">
+            <button id="multiply" type="button" name="button" onclick="modify(1)">×</button>
+            <button id="division" type="button" name="button" onclick="modify(2)">÷</button>
+            <button id="sum" type="button" name="button" onclick="modify(3)">+</button>
+            <button id="sub" type="button" name="button" onclick="modify(4)">-</button>
+        </div>
+    </div>
+    <div class="logic">
+        <pre id="logic"> </pre>
+    </div>
+    <div class="pitagoras">
+        <h2>Pitagoro teorema</h2>
+        <div class="pit_input">
+            <label for="width">Plotis:  </label>
+            <input type="number" id="width" name="plotis" value="" placeholder="Įvesti">
+        </div>
+        <div class="pit_input">
+            <label for="height">Aukštis:  </label>
+            <input type="number" id="height" name="aukstis" value="" placeholder="Įvesti">
+        </div>
+        <div class="pit_input">
+            <label for="diag">Įstrižainė:  </label>
+            <input type="number" id="diag" name="diag" value="" placeholder="Įvesti, nu arba ne">
+        </div>
+        <button class="pit-btn" type="button" id="pitagoras" name="button" onclick="pitagoras()">Skaičiuoti / C</button>
+    </div>
+    <script type="text/javascript" src="test.js"></script>
+</body>
+</html>

@@ -1,0 +1,127 @@
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(240, 240, 240);
+    font-family: 'Source Sans Pro', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1  {
+    font-family: 'Galada', cursive;
+    font-weight: bold;
+    text-shadow: 0px 5px 9px rgba(150, 150, 150, 0.72);
+}
+
+h2 {
+    font-family: 'Galada', cursive;
+    margin: 0 0 5px 0;
+}
+
+pre {
+    color: grey;
+    text-align: center;
+    margin: 0;
+}
+
+input {
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    margin: 5px;
+    padding: 0;
+
+}
+
+button {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    border-radius: 50%;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #01BA98;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 400px;
+}
+
+.IO {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ioSection {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 320px;
+}
+
+.ioSection label {
+    padding-right: 10px;
+}
+
+.logic {
+    width: 400px;
+    background-color: lightgrey;
+}
+
+.modifiers {
+    margin: 15px 0;
+    width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.pitagoras {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pit_input {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 320px;
+}
+
+.pit-btn {
+    width: 150px;
+    font-size: 16px;
+    border-radius: 15px;
+    align-self: center;
+}
+
+.pitagoras h2 {
+    margin-top: 15px;
+}
+
+.pit_input label {
+    margin-right: 15px;
+}
