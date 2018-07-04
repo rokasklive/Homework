@@ -1,0 +1,81 @@
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  background-color: #1096ea;
+  height: 48px;
+}
+
+header .brand_logo_container {
+  background-color: #0c71af;
+  width: 48px;
+  height: 24px;
+  -ms-flex-item-align: center;
+  align-self: center;
+  margin-right: 40px;
+}
+
+.navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-left: 40px;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 160px;
+}
+
+.navigation a {
+  background-color: #0c71af;
+  display: inline-block;
+  width: 32px;
+  height: 16px;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  background-color: #8eb1c7;
+  color: #fcfeff;
+  bottom: 0;
+  font-family: Georgia, serif;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+footer p {
+  padding-left: 40px;
+}
+
+footer ul {
+  -ms-flex-item-align: end;
+  align-self: flex-end;
+  display: inline-block;
+  padding-right: 40px;
+}
+
+footer ul li {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background-color: #b6bdc1;
+  margin-left: 10px;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}

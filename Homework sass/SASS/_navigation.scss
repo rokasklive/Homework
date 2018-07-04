@@ -1,0 +1,15 @@
+.navigation {
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+    justify-content: space-between;
+    width: 10 * $f-size;
+
+    a {
+        background-color: $color-primary-a;
+        display: inline-block;
+        width: 2 * $f-size;
+        height: $f-size;
+
+    }
+}

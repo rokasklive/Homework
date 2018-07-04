@@ -1,0 +1,27 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: $color-secondary;
+    color: $color-text;
+    bottom: 0;
+    font-family: $font-secondary;
+    align-items: center;
+
+    p {
+        padding-left: 40px;
+    }
+
+    ul {
+        align-self: flex-end;
+        display: inline-block;
+        padding-right: 40px;
+
+        li {
+            display: inline-block;
+            width: 2*($f-size);
+            height: 2*($f-size);
+            background-color: $color-secondary-a;
+            margin-left: 10px;
+        }
+    }
+}

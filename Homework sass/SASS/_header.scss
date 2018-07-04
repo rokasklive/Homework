@@ -1,0 +1,14 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: $color-primary;
+    height: 3 * $f-size;
+
+    .brand_logo_container{
+        background-color: $color-primary-a;
+        width: 3 * $f-size;
+        height: 1.5 * $f-size;
+        align-self: center;
+        margin-right: 40px;
+    }
+}
